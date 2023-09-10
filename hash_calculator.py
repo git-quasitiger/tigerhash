@@ -37,13 +37,13 @@ def calc_hash(_data, _option):
         print(f'SHA256 : {sha256_digest(_data)}')
 
     elif _option == 'md5':
-        print(md5_digest(_data))
+        print(f'MD5 : {md5_digest(_data)}')
 
     elif _option == 'sha1':
-        print(sha1_digest(_data))
+        print(f'SHA1 : {sha1_digest(_data)}')
         
     elif _option == 'sha256':
-        print(sha256_digest(_data))
+        print(f'SHA256 : {sha256_digest(_data)}')
 
 # 인자 파싱기능 함수
 def argparse_config() -> argparse.ArgumentParser:
