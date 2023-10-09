@@ -4,7 +4,10 @@
 
 # 2. 사용 방법
 ---
+
+```(cmd)
 python hash_calculator.py -f <file_path> -o <hash_algorithm>
+```
 
 옵션은 다음과 같이 사용할 수 있어요
 
